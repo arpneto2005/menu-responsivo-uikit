@@ -1,0 +1,35 @@
+<!-- NavBar -->
+        <nav id="nav" class="uk-navbar-container" uk-navbar>
+            <div class="uk-navbar-left">
+                <img id="img_logo" src="img/logo.png">
+            </div>
+            <div id="menu" class="uk-navbar-right">
+                <ul class="uk-navbar-nav uk-visible@s">
+                    <li class="uk-active"><a href="#">Home</a></li>
+                    <li><a href="#">Institucional</a></li>
+                    <li><a href="#">Equipe</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+                <div class="canvas-btn uk-hidden@s">
+                    <a class="uk-flex uk-flex-middle uk-flex-right@s" href="#offcanvas-menu" uk-toggle>  
+                        <div class="uk-flex uk-flex-right@s" uk-navbar-toggle-icon></div>
+                    </a>
+                </div>
+                <div class="offcanvas-menu" id="offcanvas-menu" uk-offcanvas="overlay: true">
+                    <div class="uk-offcanvas-bar">
+                        <button class="uk-offcanvas-close" type="button" uk-close></button>
+                        <ul class="uk-nav uk-nav-default">
+                            <li class="uk-active"><a href="#">Home</a></li>
+                            <li><a href="#">Institucional</a></li>
+                            <li><a href="#">Equipe</a></li>
+                            <li><a href="#">Serviços</a></li>
+                            <li><a href="#">Contato</a></li>
+                            <li><a href="#">Mais Serviços</a></li>
+                            <li><a href="#">Saiba Mais</a></li>
+                            <li><a href="#">Acompanhe as Notícias</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>            
+        </nav>
